@@ -2379,7 +2379,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3607483930090867485, guid: 12a9bf496f4cc174f9c5fa546d833db6, type: 3}
       propertyPath: m_TagString
-      value: Selectable
+      value: Pathable
       objectReference: {fileID: 0}
     - target: {fileID: 3699503966504598635, guid: 12a9bf496f4cc174f9c5fa546d833db6, type: 3}
       propertyPath: m_LocalScale.z
@@ -5490,7 +5490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3607483930090867485, guid: 12a9bf496f4cc174f9c5fa546d833db6, type: 3}
       propertyPath: m_TagString
-      value: Selectable
+      value: Pathable
       objectReference: {fileID: 0}
     - target: {fileID: 3699503966504598635, guid: 12a9bf496f4cc174f9c5fa546d833db6, type: 3}
       propertyPath: m_LocalScale.z
@@ -7666,7 +7666,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2107704716}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &465491844
 MonoBehaviour:
@@ -14597,7 +14597,7 @@ GameObject:
   - component: {fileID: 842407822}
   m_Layer: 0
   m_Name: Semiblock
-  m_TagString: Selectable
+  m_TagString: Pathable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15928,7 +15928,7 @@ GameObject:
   - component: {fileID: 900300545}
   m_Layer: 0
   m_Name: Title 5 5 -1
-  m_TagString: Pathable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20584,7 +20584,7 @@ GameObject:
   - component: {fileID: 1221783133}
   m_Layer: 0
   m_Name: Title 1 6 -1
-  m_TagString: Pathable
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31082,7 +31082,7 @@ GameObject:
   - component: {fileID: 1837369378}
   m_Layer: 0
   m_Name: Slab (2)
-  m_TagString: Selectable
+  m_TagString: Pathable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34981,7 +34981,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 165218400}
-  - {fileID: 465491843}
   - {fileID: 1963689420}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -35466,4 +35465,5 @@ SceneRoots:
   - {fileID: 886882953}
   - {fileID: 1371455865}
   - {fileID: 1321412635}
+  - {fileID: 465491843}
   - {fileID: 2107704716}
