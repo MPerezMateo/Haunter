@@ -11,7 +11,7 @@ public abstract class Moveable : MonoBehaviour
   public float moveSpeed;
   private bool highlighted;
   private List<GameObject> posiblePathables;
-  private List<int> visited;
+  private List<float> visited;
 
   protected void Start()
   {
@@ -21,7 +21,7 @@ public abstract class Moveable : MonoBehaviour
     moveSpeed = 5;
     highlighted = false;
     posiblePathables = new List<GameObject>();
-    visited = new List<int>();
+    visited = new List<float>();
   }
   protected void move()
   {
@@ -66,14 +66,35 @@ public abstract class Moveable : MonoBehaviour
   }
   private void highLightPaths(List<GameObject> posiblePathables, bool highlight)
   {
-    foreach (GameObject obj in posiblePathables)
+    for (int i = 0; i < posiblePathables.Count; i++)
     {
-      if (obj != null)
+      if (posiblePathables[i] != null)
       {
-        Tile tile = obj.GetComponent<Tile>();
-        tile.SetMaterial(highlight ? tile.highLightMaterial : tile.defaultMaterial);
+        Tile tile = posiblePathables[i].GetComponent<Tile>();
+        setNumber(tile, i);
+        //tile.SetMaterial(highlight ? tile.highLightMaterial : tile.defaultMaterial);
       }
     }
+  }
+
+  private void setNumber(Tile tile, int index)
+  {
+    Texture2D texture = new Texture2D(256, 256);
+    GetComponent<Renderer>().material.mainTexture = texture;
+
+    // Convert the number to a string
+    string numberString = visited[index].ToString();
+
+    // Create a GUIStyle with the specified font and color
+    GUIStyle style = new GUIStyle();
+    //style.font = 12;
+    //style.normal.textColor = textColor;
+
+    // Draw the number on the texture using GUI.Label
+    GUI.Label(new Rect(0, 0, texture.width, texture.height), numberString, style);
+
+    // Apply the changes to the texture
+    texture.Apply();
   }
 
   /***
@@ -92,7 +113,7 @@ public abstract class Moveable : MonoBehaviour
     // Debug.Log(origin.transform.position);
     int initialIndex = pathables.FindIndex(e => e.transform.position.x == origin.transform.position.x && e.transform.position.y == origin.transform.position.y);
     // ponemos todos a -1 menos en el que esta el personaje
-    visited = pathables.Select((e, i) => i == initialIndex ? 0 : -1).ToList();
+    visited = pathables.Select((e, i) => i == initialIndex ? 0f : -1f).ToList();
     if (!pathables.Contains(origin))
     {
       Debug.Log("Error, destination or origin not in tile pool");
@@ -104,7 +125,7 @@ public abstract class Moveable : MonoBehaviour
     return pathables;
   }
 
-  bool TestDirection(GameObject origin, List<GameObject> space, List<int> visited, int step, int destIndex)
+  bool TestDirection(GameObject origin, List<GameObject> space, List<float> visited, float step, int destIndex)
   {
     //Debug.Log($"Distance between {origin} and {space[destIndex]} is {Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5 * space[destIndex].transform.localScale.z))}");
     if (destIndex != -1 && visited[destIndex] == step
@@ -113,7 +134,7 @@ public abstract class Moveable : MonoBehaviour
     return false;
   }
 
-  void TestFourDirections(GameObject origin, List<GameObject> space, List<int> visited, int step)
+  void TestFourDirections(GameObject origin, List<GameObject> space, List<float> visited, float step)
   {
     Vector2[] cross = { new Vector2(0, 1), new Vector2(0, -1), new Vector2(1, 0), new Vector2(-1, 0) };
     int destinationIndex;
@@ -128,24 +149,27 @@ public abstract class Moveable : MonoBehaviour
       }
     }
   }
-  void setDistance(List<GameObject> space, List<int> visited)
+  void setDistance(List<GameObject> space, List<float> visited)
   {
     int index;
-    for (int step = 1; step < space.Count; step++)
+    float step = 1f;
+    while (step < space.Count)
     {
       foreach (GameObject obj in space)
       {
         // We find the index of our object
         index = space.FindIndex(e => e.transform.position.x == obj.transform.position.x && e.transform.position.y == obj.transform.position.y);
+        // if (visited[index] > -1 && visited[index] < step)
         if (visited[index] == step - 1)
           TestFourDirections(obj, space, visited, step);
       }
+      step++;
     }
 
     // Aqui devolver solo los pathables con visited distintos de -1
     for (int i = visited.Count - 1; i >= 0; i--)
     {
-      if (visited[i] == -1)
+      if (visited[i] == -1f)
       {
         space.RemoveAt(i);
         visited.RemoveAt(i);
@@ -153,11 +177,11 @@ public abstract class Moveable : MonoBehaviour
     }
   }
 
-  List<GameObject> setPath(List<GameObject> space, List<int> visited, GameObject destination)
+  List<GameObject> setPath(List<GameObject> space, List<float> visited, GameObject destination)
   {
     List<GameObject> path = new List<GameObject>();
     List<GameObject> temp = new List<GameObject>();
-    int step;
+    float step;
     if (!destination)
       return path;
     int indexDestination = space.FindIndex(e => e.transform.position.x == destination.transform.position.x && e.transform.position.y == destination.transform.position.y);
@@ -165,7 +189,7 @@ public abstract class Moveable : MonoBehaviour
     if (indexDestination != -1)
     {
       path.Add(destination);
-      step = visited[indexDestination] - 1;
+      step = visited[indexDestination] - 1f;
     }
     else
     {
@@ -174,7 +198,7 @@ public abstract class Moveable : MonoBehaviour
     }
     Vector2[] cross = { new Vector2(0, 1), new Vector2(0, -1), new Vector2(1, 0), new Vector2(-1, 0) };
     int newPos;
-    for (int i = step; step > -1; step--)
+    for (float i = step; step > -1f; step--)
     {
       foreach (var dir in cross)
       {
