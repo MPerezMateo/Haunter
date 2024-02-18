@@ -15,57 +15,55 @@ public class Selection : MonoBehaviour
   void Update()
   {
     // Highlight
-    if (GlobalVariables.highlight != null)
+    if (GlobalVariables.Highlight != null)
     {
-      GlobalVariables.highlight.GetComponent<MeshRenderer>().sharedMaterial = originalMaterialHighlight;
-      GlobalVariables.highlight = null;
+      GlobalVariables.Highlight.GetComponent<MeshRenderer>().sharedMaterial = originalMaterialHighlight;
+      GlobalVariables.Highlight = null;
     }
     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
     if (!EventSystem.current.IsPointerOverGameObject() && Physics.Raycast(ray, out raycastHit)) //Make sure you have EventSystem in the hierarchy before using EventSystem
     {
-      GlobalVariables.highlight = raycastHit.collider.gameObject;
+      GlobalVariables.Highlight = raycastHit.collider.gameObject;
 
-      if (selectableTags.Contains(GlobalVariables.highlight.tag) && GlobalVariables.highlight != GlobalVariables.selection)
+      if (selectableTags.Contains(GlobalVariables.Highlight.tag) && GlobalVariables.Highlight != GlobalVariables.Selection)
       {
-        if (GlobalVariables.highlight.GetComponent<MeshRenderer>().material != highlightMaterial)
+        if (GlobalVariables.Highlight.GetComponent<MeshRenderer>().material != highlightMaterial)
         {
-          originalMaterialHighlight = GlobalVariables.highlight.GetComponent<MeshRenderer>().material;
-          GlobalVariables.highlight.GetComponent<MeshRenderer>().material = highlightMaterial;
+          originalMaterialHighlight = GlobalVariables.Highlight.GetComponent<MeshRenderer>().material;
+          GlobalVariables.Highlight.GetComponent<MeshRenderer>().material = highlightMaterial;
         }
       }
       else
       {
-        GlobalVariables.highlight = null;
+        GlobalVariables.Highlight = null;
       }
     }
 
     // Selection
     if (Input.GetMouseButtonDown(0) && !EventSystem.current.IsPointerOverGameObject())
     {
-      if (GlobalVariables.highlight)
+      if (GlobalVariables.Highlight)
       {
-        if (GlobalVariables.selection != null)
+        if (GlobalVariables.Selection != null)
         {
-          GlobalVariables.selection.GetComponent<MeshRenderer>().material = originalMaterialSelection;
+          GlobalVariables.Selection.GetComponent<MeshRenderer>().material = originalMaterialSelection;
         }
-        GlobalVariables.selection = raycastHit.collider.gameObject;
-        if (GlobalVariables.selection.GetComponent<MeshRenderer>().material != selectionMaterial)
+        GlobalVariables.Selection = raycastHit.collider.gameObject;
+        if (GlobalVariables.Selection.GetComponent<MeshRenderer>().material != selectionMaterial)
         {
           originalMaterialSelection = originalMaterialHighlight;
-          GlobalVariables.selection.GetComponent<MeshRenderer>().material = selectionMaterial;
+          GlobalVariables.Selection.GetComponent<MeshRenderer>().material = selectionMaterial;
         }
-        GlobalVariables.highlight = null;
+        GlobalVariables.Highlight = null;
       }
       else
       {
-        if (GlobalVariables.selection)
+        if (GlobalVariables.Selection)
         {
-          GlobalVariables.selection.GetComponent<MeshRenderer>().material = originalMaterialSelection;
-          GlobalVariables.selection = null;
+          GlobalVariables.Selection.GetComponent<MeshRenderer>().material = originalMaterialSelection;
+          GlobalVariables.Selection = null;
         }
       }
     }
-
   }
-
 }

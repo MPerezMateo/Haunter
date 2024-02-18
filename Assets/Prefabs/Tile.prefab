@@ -118,3 +118,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73e682dd852e12646ab78eaee3aa0ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
+  highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
