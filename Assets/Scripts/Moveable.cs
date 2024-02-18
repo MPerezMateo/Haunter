@@ -25,22 +25,17 @@ public abstract class Moveable : MonoBehaviour
   }
   protected void move()
   {
-    if (Input.GetMouseButtonDown(0) && GlobalVariables.Selection == gameObject)
+    if (Input.GetMouseButtonDown(0) && GlobalVariables.Selection == gameObject && !highlighted)
     {
       posiblePathables = optimalPath();
-      //if (Input.GetMouseButtonDown(0) && GlobalVariables.selection == gameObject && GlobalVariables.highlight != null && GlobalVariables.highlight != gameObject && GlobalVariables.highlight.tag == "Pathable")
-      //Debug.Log(GlobalVariables.selection.transform.position);
-      //Debug.Log(GlobalVariables.highlight.transform.position);
-      //transform.position = GlobalVariables.highlight.transform.position + new Vector3(.0f, .0f, 0.5f * (transform.localScale.z + GlobalVariables.highlight.transform.localScale.z));
-      // una vez determinado el camino óptimo, hay que desplazar a una velocidad lineal al "movible"
       highLightPaths(posiblePathables, true);
       highlighted = true;
     }
     else if (Input.GetMouseButtonDown(0) && highlighted)
     {
       List<GameObject> way = setPath(posiblePathables, visited, GlobalVariables.Selection);
-      foreach (var tile in way)
-        Debug.Log(tile.transform.position);
+      //foreach (var tile in way)
+      //  Debug.Log(tile.transform.position);
       highLightPaths(posiblePathables, false);
       highlighted = false;
       // Move the player
@@ -95,9 +90,9 @@ public abstract class Moveable : MonoBehaviour
     GameObject origin = pathables.Find(p => p.transform.position.x == transform.position.x && p.transform.position.y == transform.position.y);
     // Debug.Log(player.transform.position);
     // Debug.Log(origin.transform.position);
-    visited = pathables.Select(_ => -1).ToList();
     int initialIndex = pathables.FindIndex(e => e.transform.position.x == origin.transform.position.x && e.transform.position.y == origin.transform.position.y);
-    visited[initialIndex] = 0;
+    // ponemos todos a -1 menos en el que esta el personaje
+    visited = pathables.Select((e, i) => i == initialIndex ? 0 : -1).ToList();
     if (!pathables.Contains(origin))
     {
       Debug.Log("Error, destination or origin not in tile pool");
@@ -127,6 +122,8 @@ public abstract class Moveable : MonoBehaviour
       destinationIndex = space.FindIndex(e => e.transform.position.x == origin.transform.position.x + direction.x && e.transform.position.y == origin.transform.position.y + direction.y);
       if (TestDirection(origin, space, visited, -1, destinationIndex))
       {
+        // Aquí, al step hay que agregarle la penalización por altura
+        double vdist = Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destinationIndex].transform.position.z + 0.5 * space[destinationIndex].transform.localScale.z));
         visited[destinationIndex] = step;
       }
     }
@@ -145,9 +142,7 @@ public abstract class Moveable : MonoBehaviour
       }
     }
 
-    // Aqui devolver todos los pathables distintos de -1
-    // En un futuro, al seleccionar a nuestro movible, debemos resaltar las áreas posibles.
-
+    // Aqui devolver solo los pathables con visited distintos de -1
     for (int i = visited.Count - 1; i >= 0; i--)
     {
       if (visited[i] == -1)
