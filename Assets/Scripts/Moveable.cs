@@ -27,7 +27,7 @@ public abstract class Moveable : MonoBehaviour
   {
     if (Input.GetMouseButtonDown(0) && GlobalVariables.Selection == gameObject)
     {
-      posiblePathables = optimalPath(gameObject);
+      posiblePathables = optimalPath();
       //if (Input.GetMouseButtonDown(0) && GlobalVariables.selection == gameObject && GlobalVariables.highlight != null && GlobalVariables.highlight != gameObject && GlobalVariables.highlight.tag == "Pathable")
       //Debug.Log(GlobalVariables.selection.transform.position);
       //Debug.Log(GlobalVariables.highlight.transform.position);
@@ -42,9 +42,9 @@ public abstract class Moveable : MonoBehaviour
       foreach (var tile in way)
         Debug.Log(tile.transform.position);
       highLightPaths(posiblePathables, false);
-
       highlighted = false;
       // Move the player
+      GlobalVariables.selectable = false;
       StartCoroutine(translatePlayer(way));
       posiblePathables.Clear();
       visited.Clear();
@@ -58,11 +58,12 @@ public abstract class Moveable : MonoBehaviour
       yield return StartCoroutine(MoveToTarget(tile.transform.position + new Vector3(0, 0, 0.5f * (tile.transform.localScale.z + transform.localScale.z))));
       yield return new WaitForSeconds(0.3f);
     }
+    GlobalVariables.selectable = true;
   }
 
   IEnumerator MoveToTarget(Vector3 targetPosition)
   {
-    while (Vector3.Distance(transform.position, targetPosition) > 0.1f)
+    while (Vector3.Distance(transform.position, targetPosition) > 0f)
     {
       transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
       yield return null;
@@ -84,19 +85,18 @@ public abstract class Moveable : MonoBehaviour
   This function is called knowing that the origin and destination are in moverange.
   Wil calculate the optimal path from origin to destination, considering pathable ways and height jump limitation
   **/
-  List<GameObject> optimalPath(GameObject player)
+  List<GameObject> optimalPath()
   {
     List<GameObject> pathables = GameObject.FindGameObjectsWithTag("Pathable") // Esto debe ser pathable en un futuro
                                        .Where(p => Math.Abs(p.transform.position.x - transform.position.x) + Math.Abs(p.transform.position.y - transform.position.y) <= moveRange)
                                        .OrderBy(p => p.name)
                                        .ToList();
 
-    GameObject origin = pathables.Find(p => p.transform.position.x == player.transform.position.x && p.transform.position.y == player.transform.position.y);
+    GameObject origin = pathables.Find(p => p.transform.position.x == transform.position.x && p.transform.position.y == transform.position.y);
     // Debug.Log(player.transform.position);
     // Debug.Log(origin.transform.position);
     visited = pathables.Select(_ => -1).ToList();
-    int initialIndex = Enumerable.Range(0, pathables.Count)
-                .FirstOrDefault(i => pathables[i].transform.position.x == origin.transform.position.x && pathables[i].transform.position.y == origin.transform.position.y);
+    int initialIndex = pathables.FindIndex(e => e.transform.position.x == origin.transform.position.x && e.transform.position.y == origin.transform.position.y);
     visited[initialIndex] = 0;
     if (!pathables.Contains(origin))
     {
