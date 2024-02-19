@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using TMPro;
 
 public abstract class Moveable : MonoBehaviour
 {
@@ -71,32 +72,18 @@ public abstract class Moveable : MonoBehaviour
       if (posiblePathables[i] != null)
       {
         Tile tile = posiblePathables[i].GetComponent<Tile>();
-        setNumber(tile, i);
-        //tile.SetMaterial(highlight ? tile.highLightMaterial : tile.defaultMaterial);
+        setNumber(posiblePathables[i], i, highlight);
+        tile.SetMaterial(highlight ? tile.highLightMaterial : tile.defaultMaterial);
       }
     }
   }
 
-  private void setNumber(Tile tile, int index)
+  private void setNumber(GameObject tile, int index, bool highlight)
   {
-    Texture2D texture = new Texture2D(256, 256);
-    GetComponent<Renderer>().material.mainTexture = texture;
-
-    // Convert the number to a string
-    string numberString = visited[index].ToString();
-
-    // Create a GUIStyle with the specified font and color
-    GUIStyle style = new GUIStyle();
-    //style.font = 12;
-    //style.normal.textColor = textColor;
-
-    // Draw the number on the texture using GUI.Label
-    GUI.Label(new Rect(0, 0, texture.width, texture.height), numberString, style);
-
-    // Apply the changes to the texture
-    texture.Apply();
+    TMP_Text textMeshProComponent = tile.GetComponentInChildren<TMP_Text>();
+    if (textMeshProComponent)
+      textMeshProComponent.text = highlight ? (visited[index] == float.PositiveInfinity ? "F" : visited[index].ToString()) : "";
   }
-
   /***
   This function is called knowing that the origin and destination are in moverange.
   Wil calculate the optimal path from origin to destination, considering pathable ways and height jump limitation
@@ -113,7 +100,7 @@ public abstract class Moveable : MonoBehaviour
     // Debug.Log(origin.transform.position);
     int initialIndex = pathables.FindIndex(e => e.transform.position.x == origin.transform.position.x && e.transform.position.y == origin.transform.position.y);
     // ponemos todos a -1 menos en el que esta el personaje
-    visited = pathables.Select((e, i) => i == initialIndex ? 0f : -1f).ToList();
+    visited = pathables.Select((e, i) => i == initialIndex ? 0f : float.PositiveInfinity).ToList();
     if (!pathables.Contains(origin))
     {
       Debug.Log("Error, destination or origin not in tile pool");
@@ -141,7 +128,7 @@ public abstract class Moveable : MonoBehaviour
     foreach (var direction in cross)
     {
       destinationIndex = space.FindIndex(e => e.transform.position.x == origin.transform.position.x + direction.x && e.transform.position.y == origin.transform.position.y + direction.y);
-      if (TestDirection(origin, space, visited, -1, destinationIndex))
+      if (TestDirection(origin, space, visited, float.PositiveInfinity, destinationIndex))
       {
         // Aquí, al step hay que agregarle la penalización por altura
         double vdist = Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destinationIndex].transform.position.z + 0.5 * space[destinationIndex].transform.localScale.z));
@@ -160,7 +147,7 @@ public abstract class Moveable : MonoBehaviour
         // We find the index of our object
         index = space.FindIndex(e => e.transform.position.x == obj.transform.position.x && e.transform.position.y == obj.transform.position.y);
         // if (visited[index] > -1 && visited[index] < step)
-        if (visited[index] == step - 1)
+        if (visited[index] < step)
           TestFourDirections(obj, space, visited, step);
       }
       step++;
