@@ -112,35 +112,32 @@ public abstract class Moveable : MonoBehaviour
     return pathables;
   }
 
-  bool TestDirection(GameObject origin, List<GameObject> space, List<float> visited, float step, int destIndex)
+  bool TestDirection(GameObject origin, List<GameObject> space, List<float> visited, float step, int destIndex, bool advance = false)
   {
     //Debug.Log($"Distance between {origin} and {space[destIndex]} is {Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5 * space[destIndex].transform.localScale.z))}");
-    if (destIndex != -1 && visited[destIndex] > step
+    if (destIndex != -1 && (advance ? visited[destIndex] <= step : visited[destIndex] > step)
          && Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5 * space[destIndex].transform.localScale.z)) <= jumpReach)
       return true;
     return false;
   }
 
-  bool TestAdvanceDirection(GameObject origin, List<GameObject> space, List<float> visited, float step, int destIndex)
-  {
-    //Debug.Log($"Distance between {origin} and {space[destIndex]} is {Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5 * space[destIndex].transform.localScale.z))}");
-    if (destIndex != -1 && visited[destIndex] <= step
-         && Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5 * space[destIndex].transform.localScale.z)) <= jumpReach)
-      return true;
-    return false;
-  }
   void TestFourDirections(GameObject origin, List<GameObject> space, List<float> visited, float step)
   {
     Vector2[] cross = { new Vector2(0, 1), new Vector2(0, -1), new Vector2(1, 0), new Vector2(-1, 0) };
-    int destinationIndex;
+    int destinationIndex, originIndex;
     foreach (var direction in cross)
     {
       destinationIndex = space.FindIndex(e => e.transform.position.x == origin.transform.position.x + direction.x && e.transform.position.y == origin.transform.position.y + direction.y);
-      if (TestDirection(origin, space, visited, step, destinationIndex))
+      originIndex = space.FindIndex(e => e == origin);
+
+      if (destinationIndex != -1)
       {
-        // Aquí, al step hay que agregarle la penalización por altura
         float vdist = (float)Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destinationIndex].transform.position.z + 0.5 * space[destinationIndex].transform.localScale.z));
-        visited[destinationIndex] = step;
+        if (TestDirection(origin, space, visited, visited[originIndex] + 1 + vdist, destinationIndex, advance: false))
+        {
+          // Aquí, al step hay que agregarle la penalización por altura
+          visited[destinationIndex] = visited[originIndex] + 1 + vdist;
+        }
       }
     }
   }
@@ -153,7 +150,7 @@ public abstract class Moveable : MonoBehaviour
       foreach (GameObject obj in space)
       {
         // We find the index of our object
-        index = space.FindIndex(e => e.transform.position.x == obj.transform.position.x && e.transform.position.y == obj.transform.position.y);
+        index = space.FindIndex(e => e == obj);
         // if (visited[index] > -1 && visited[index] < step)
         if (visited[index] < step)
           TestFourDirections(obj, space, visited, step);
@@ -164,7 +161,7 @@ public abstract class Moveable : MonoBehaviour
     // Aqui devolver solo los pathables con visited distintos de -1
     for (int i = visited.Count - 1; i >= 0; i--)
     {
-      if (visited[i] == -1f)
+      if (visited[i] > moveRange)
       {
         space.RemoveAt(i);
         visited.RemoveAt(i);
@@ -193,13 +190,13 @@ public abstract class Moveable : MonoBehaviour
     }
     Vector2[] cross = { new Vector2(0, 1), new Vector2(0, -1), new Vector2(1, 0), new Vector2(-1, 0) };
     int newPos;
-    for (float i = step; step > -1f; step--)
+    for (float i = step; step > 0f; step--)
     {
       foreach (var dir in cross)
       {
         newPos = space.FindIndex(e =>
          e.transform.position.x == destination.transform.position.x + dir.x && e.transform.position.y == destination.transform.position.y + dir.y);
-        if (TestAdvanceDirection(destination, space, visited, step, newPos))
+        if (TestDirection(destination, space, visited, step, newPos, advance: true))
           temp.Add(space[newPos]);
       }
       GameObject tempObj = FindClosest(destination, temp);
