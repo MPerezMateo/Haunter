@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using TMPro;
+using Unity.VisualScripting;
 
 public abstract class Moveable : MonoBehaviour
 {
@@ -90,22 +91,18 @@ public abstract class Moveable : MonoBehaviour
   **/
   List<GameObject> optimalPath()
   {
+    GameObject origin = GameObject.FindGameObjectsWithTag("Pathable").FirstOrDefault(p => p.transform.position.x == transform.position.x && p.transform.position.y == transform.position.y);
+
     List<GameObject> pathables = GameObject.FindGameObjectsWithTag("Pathable") // Esto debe ser pathable en un futuro
                                        .Where(p => Math.Abs(p.transform.position.x - transform.position.x) + Math.Abs(p.transform.position.y - transform.position.y) <= moveRange)
                                        .OrderBy(p => p.name)
                                        .ToList();
 
-    GameObject origin = pathables.Find(p => p.transform.position.x == transform.position.x && p.transform.position.y == transform.position.y);
     // Debug.Log(player.transform.position);
     // Debug.Log(origin.transform.position);
-    int initialIndex = pathables.FindIndex(e => e.transform.position.x == origin.transform.position.x && e.transform.position.y == origin.transform.position.y);
+    int initialIndex = pathables.IndexOf(origin);
     // ponemos todos a -1 menos en el que esta el personaje
     visited = pathables.Select((e, i) => i == initialIndex ? 0f : float.PositiveInfinity).ToList();
-    if (!pathables.Contains(origin))
-    {
-      Debug.Log("Error, destination or origin not in tile pool");
-      return new List<GameObject>();
-    }
     // Ubicamos los pesos de distancias en nuestra matriz de paso
     setDistance(pathables, visited);
     // Hallamos el camino óptimo sobre los pesos de nuestra matriz de paso
@@ -114,51 +111,46 @@ public abstract class Moveable : MonoBehaviour
 
   bool TestDirection(GameObject origin, List<GameObject> space, List<float> visited, float step, int destIndex, bool advance = false)
   {
-    //Debug.Log($"Distance between {origin} and {space[destIndex]} is {Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5 * space[destIndex].transform.localScale.z))}");
-    if (destIndex != -1 && (advance ? visited[destIndex] <= step : visited[destIndex] > step)
-         && Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5 * space[destIndex].transform.localScale.z)) <= jumpReach)
-      return true;
-    return false;
+    if (destIndex == -1)
+      return false;
+
+    float vDistance = Mathf.Abs((origin.transform.position.z + 0.5f * origin.transform.localScale.z) - (space[destIndex].transform.position.z + 0.5f * space[destIndex].transform.localScale.z));
+
+    // La condición es algo rara, pero viene a decir que si "avanzamos" creando un path, entonces buscamos aquel siguiente paso desde desintation hasta origen, por lo que el step decrementa y lo revertimos
+    // Si "retocedemos", es porque vamos explorando, y por tanto si avanzamos, tenemos que avanzar porque un camino mejor se abre, luego la casilla de destino debe tener mayor puntuacion que la nuestra 
+    return vDistance <= jumpReach &&
+           (advance ? visited[destIndex] <= step : visited[destIndex] > step);
   }
 
   void TestFourDirections(GameObject origin, List<GameObject> space, List<float> visited, float step)
   {
-    Vector2[] cross = { new Vector2(0, 1), new Vector2(0, -1), new Vector2(1, 0), new Vector2(-1, 0) };
-    int destinationIndex, originIndex;
+    Vector2[] cross = { Vector2.right, Vector2.left, Vector2.up, Vector2.down };
+    int destinationIndex, originIndex = space.IndexOf(origin); ;
     foreach (var direction in cross)
     {
       destinationIndex = space.FindIndex(e => e.transform.position.x == origin.transform.position.x + direction.x && e.transform.position.y == origin.transform.position.y + direction.y);
-      originIndex = space.FindIndex(e => e == origin);
 
       if (destinationIndex != -1)
       {
+        // Coste de paso de salir de esta casilla. Normalmente es 1, pero podríamos modificarlo.
+        int moveCost = space[destinationIndex].GetComponent<Tile>().costPass;
         float vdist = (float)Math.Abs((origin.transform.position.z + 0.5 * origin.transform.localScale.z) - (space[destinationIndex].transform.position.z + 0.5 * space[destinationIndex].transform.localScale.z));
-        if (TestDirection(origin, space, visited, visited[originIndex] + 1 + vdist, destinationIndex, advance: false))
-        {
-          // Aquí, al step hay que agregarle la penalización por altura
-          visited[destinationIndex] = visited[originIndex] + 1 + vdist;
-        }
+        if (TestDirection(origin, space, visited, visited[originIndex] + moveCost + vdist, destinationIndex, advance: false))
+          visited[destinationIndex] = visited[originIndex] + moveCost + vdist;
       }
     }
   }
   void setDistance(List<GameObject> space, List<float> visited)
   {
-    int index;
-    float step = 1f;
-    while (step < space.Count)
+    for (float step = 1f; step <= moveRange; step++)
     {
-      foreach (GameObject obj in space)
+      // This loop could be optimized by filtering 
+      foreach (GameObject obj in space.Where(e => visited[space.IndexOf(e)] < step && visited[space.IndexOf(e)] >= step - 1))
       {
-        // We find the index of our object
-        index = space.FindIndex(e => e == obj);
-        // if (visited[index] > -1 && visited[index] < step)
-        if (visited[index] < step)
-          TestFourDirections(obj, space, visited, step);
+        TestFourDirections(obj, space, visited, step);
       }
-      step++;
     }
-
-    // Aqui devolver solo los pathables con visited distintos de -1
+    // Aqui devolver solo los pathables con visited distintos de infinito y menor o igual a moverange
     for (int i = visited.Count - 1; i >= 0; i--)
     {
       if (visited[i] > moveRange)
@@ -172,37 +164,47 @@ public abstract class Moveable : MonoBehaviour
   List<GameObject> setPath(List<GameObject> space, List<float> visited, GameObject destination)
   {
     List<GameObject> path = new List<GameObject>();
-    List<GameObject> temp = new List<GameObject>();
     float step;
     if (!destination)
-      return path;
-    int indexDestination = space.FindIndex(e => e.transform.position.x == destination.transform.position.x && e.transform.position.y == destination.transform.position.y);
-
-    if (indexDestination != -1)
     {
-      path.Add(destination);
-      step = visited[indexDestination] - 1f;
+      Debug.Log("Destination is null. Cannot set path.");
+      return path;
     }
-    else
+    int indexDestination = space.IndexOf(destination);
+
+    if (indexDestination == -1)
     {
       Debug.Log("Can't reach desired location");
       return path;
     }
-    Vector2[] cross = { new Vector2(0, 1), new Vector2(0, -1), new Vector2(1, 0), new Vector2(-1, 0) };
+
+    path.Add(destination);
+    step = visited[indexDestination] - 1f; // menos el coste del cubo, ojo
+
+    Vector2[] cross = { Vector2.right, Vector2.left, Vector2.up, Vector2.down };
     int newPos;
-    for (float i = step; step > 0f; step--)
+    // No se puede hacer así, se debe consultar a la cruceta
+    while (step > 0f)
     {
+      int min = int.MaxValue;
+      float minValue = float.PositiveInfinity;
+      List<GameObject> temp = new List<GameObject>();
+
       foreach (var dir in cross)
       {
         newPos = space.FindIndex(e =>
          e.transform.position.x == destination.transform.position.x + dir.x && e.transform.position.y == destination.transform.position.y + dir.y);
         if (TestDirection(destination, space, visited, step, newPos, advance: true))
-          temp.Add(space[newPos]);
+          if (visited[newPos] < minValue)
+          {
+            min = newPos;
+            minValue = visited[newPos];
+          }
       }
-      GameObject tempObj = FindClosest(destination, temp);
-      path.Add(tempObj);
-      destination = tempObj;
-      temp.Clear();
+      //GameObject tempObj = FindClosest(destination, temp);
+      path.Add(space[min]);
+      destination = space[min];
+      step = visited[min];
     }
     path.Reverse();
     return path;
@@ -210,18 +212,22 @@ public abstract class Moveable : MonoBehaviour
 
   GameObject FindClosest(GameObject destination, List<GameObject> list)
   {
-    float currentDistance = float.PositiveInfinity;
-    int indexNumber = -1;
-    float dist;
-    for (int i = 0; i < list.Count; i++)
+    if (list.Count == 0)
+      return null;
+
+    GameObject closestObject = list[0];
+    float minDistance = Vector3.Distance(destination.transform.position, closestObject.transform.position);
+
+    foreach (GameObject obj in list.Skip(1))
     {
-      dist = Vector3.Distance(destination.transform.position, list[i].transform.position);
-      if (dist < currentDistance)
+      float distance = Vector3.Distance(destination.transform.position, obj.transform.position);
+
+      if (distance < minDistance)
       {
-        currentDistance = dist;
-        indexNumber = i;
+        minDistance = distance;
+        closestObject = obj;
       }
     }
-    return indexNumber != -1 ? list[indexNumber] : null;
+    return closestObject;
   }
 }

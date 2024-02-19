@@ -6,6 +6,7 @@ public class Tile : MonoBehaviour
 {
   public Material defaultMaterial;
   public Material highLightMaterial;
+  public int costPass = 1;
   // Tiles may be breakable, therefore a counter for hits must be set.
   public void Start()
   {

@@ -561,6 +561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &3710749
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1241,6 +1242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &10850521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2125,6 +2127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &18501210
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2361,6 +2364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &25636815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2939,6 +2943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &33503050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3448,6 +3453,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &47823526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3582,6 +3588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &48014077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4091,6 +4098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &66567397
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4225,6 +4233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &70585880
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4359,6 +4368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &70850877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4595,6 +4605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &71527927
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4729,6 +4740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &82342101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4863,6 +4875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &84639963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5168,6 +5181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &88192923
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5302,6 +5316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &93479717
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5538,6 +5553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &99582143
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5672,6 +5688,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &102347308
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6352,6 +6369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &110145945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6486,6 +6504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &113169311
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7439,6 +7458,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &129666904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7744,6 +7764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &143003268
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8697,6 +8718,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &156956836
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8831,6 +8853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &160692108
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9964,6 +9987,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &166065752
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10371,6 +10395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &170913283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10709,6 +10734,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &178453212
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13038,6 +13064,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &205845417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13172,6 +13199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &208570013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13306,6 +13334,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &213217394
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14226,6 +14255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &230837321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14531,6 +14561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &235648502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14665,6 +14696,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &236026973
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14970,6 +15002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &239729318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15104,6 +15137,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &244770507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16606,6 +16640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &275138302
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16740,6 +16775,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &275561232
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16976,6 +17012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &278545998
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17554,6 +17591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &293506389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17790,6 +17828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &297185363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18095,6 +18134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &299116089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18571,6 +18611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &306017939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18705,6 +18746,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &306313105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19214,6 +19256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &313459531
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19621,6 +19664,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &321849131
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19959,6 +20003,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &325898360
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20093,6 +20138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &328679815
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20773,6 +20819,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &333852433
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20907,6 +20954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &336645792
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21041,6 +21089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &340608088
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21619,6 +21668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &353898742
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22026,6 +22076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &366202142
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22160,6 +22211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &366473603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22294,6 +22346,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &366974956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22428,6 +22481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &367130725
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22904,6 +22958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &373912837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23515,6 +23570,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &383945458
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23649,6 +23705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &386848777
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23783,6 +23840,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &387389437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24190,6 +24248,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &395971066
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24426,6 +24485,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &400376762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24833,6 +24893,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &408269878
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24967,6 +25028,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &409259637
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25203,6 +25265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &410522488
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25337,6 +25400,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &412252327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25813,6 +25877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &416243662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25947,6 +26012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &416657324
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26183,6 +26249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &420337234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26521,6 +26588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &424436363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27030,6 +27098,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &430533484
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27437,6 +27506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &438147002
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27571,6 +27641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &444035141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27807,6 +27878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &444826041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28520,6 +28592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &459047381
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28654,6 +28727,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &459340175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28890,6 +28964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &462976518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29024,6 +29099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &464351141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29381,6 +29457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &467202482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30472,6 +30549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &478081253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30606,6 +30684,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &479418864
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31424,6 +31503,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &512929064
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31831,6 +31911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &529245602
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32067,6 +32148,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &536180430
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32452,6 +32534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &541651266
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32586,6 +32669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &543950754
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32822,6 +32906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &545137209
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33127,6 +33212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &546621183
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33705,6 +33791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &552664809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34010,6 +34097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &557739431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34315,6 +34403,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &564349196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35334,6 +35423,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &580598760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35570,6 +35660,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &584341974
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35704,6 +35795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &588605122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36999,6 +37091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &616479929
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37133,6 +37226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &619217083
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37780,6 +37874,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &625503098
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38187,6 +38282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &632469570
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38321,6 +38417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &632793062
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38455,6 +38552,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &633569369
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38691,6 +38789,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &640890176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38996,6 +39095,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &645277159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39814,6 +39914,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &655643899
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39948,6 +40049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &659788434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40457,6 +40559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &667342042
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40591,6 +40694,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &668703580
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40725,6 +40829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &669403658
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42020,6 +42125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &692732697
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42154,6 +42260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &693605140
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -42561,6 +42668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &699861831
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43575,6 +43683,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &709672024
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -43982,6 +44091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &723378314
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44218,6 +44328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &727835656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -44865,6 +44976,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &732250372
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45170,6 +45282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &735956605
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45577,6 +45690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &747987956
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -45711,6 +45825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &749609250
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46391,6 +46506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &764991558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46525,6 +46641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &769593223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46659,6 +46776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &770131158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -46793,6 +46911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &770426881
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47404,6 +47523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &788746144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47709,6 +47829,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &795229502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -47843,6 +47964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &797524863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49102,6 +49224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &827696274
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49713,6 +49836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &839380499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49847,6 +49971,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &840262411
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50152,6 +50277,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &842805249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -50559,6 +50685,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &845800731
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51101,6 +51228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &859676579
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51337,6 +51465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &863430734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51642,6 +51771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &883360892
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -51776,6 +51906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &884660844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52402,6 +52533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &903523726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52536,6 +52668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &903642591
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52670,6 +52803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &904085280
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52804,6 +52938,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &905160122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -52938,6 +53073,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &910216445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53072,6 +53208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &911732726
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53206,6 +53343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &913046522
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53613,6 +53751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &919142758
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54497,6 +54636,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &934832410
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54631,6 +54771,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &935674368
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54765,6 +54906,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &936233503
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -54899,6 +55041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &938058665
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -55954,6 +56097,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &950461605
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57068,6 +57212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &965167298
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57304,6 +57449,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &967906816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57438,6 +57584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &969209289
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -57845,6 +57992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &986108632
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -58354,6 +58502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1003405297
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -59307,6 +59456,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1028857065
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -60158,6 +60308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1039820008
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61213,6 +61364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1052627417
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61620,6 +61772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1063693957
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61856,6 +62009,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1066234175
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -61990,6 +62144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1066236263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62124,6 +62279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1068092480
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62531,6 +62687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1076879549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62665,6 +62822,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1079880027
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -62970,6 +63128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1081559886
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63206,6 +63365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1084956662
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63340,6 +63500,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1086386780
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63474,6 +63635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1086658283
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63608,6 +63770,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1088242176
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -63742,6 +63905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1088635844
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64149,6 +64313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1099511890
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64793,6 +64958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1105779107
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65098,6 +65264,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1109770386
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -65789,6 +65956,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1127752055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66196,6 +66364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1129922262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66774,6 +66943,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1140155938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -67010,6 +67180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1142173558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68440,6 +68611,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1173011850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69087,6 +69259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1183570762
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69221,6 +69394,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1187842564
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69355,6 +69529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1188114150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69660,6 +69835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1192421865
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69965,6 +70141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1194348231
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70099,6 +70276,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1196599576
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -70983,6 +71161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1213861364
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -73028,6 +73207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1244626001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74017,6 +74197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1254596682
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74493,6 +74674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1271228931
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -74900,6 +75082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1283443708
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75034,6 +75217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1286045877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75441,6 +75625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1290571870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75575,6 +75760,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1290837159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -75982,6 +76168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1302939653
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77858,6 +78045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1343344003
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -77992,6 +78180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1346040732
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78399,6 +78588,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1352105850
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78533,6 +78723,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1352423891
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -78667,6 +78858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1354726778
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80064,6 +80256,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1370733157
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80244,6 +80437,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1372008225
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80549,6 +80743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1375238001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81502,6 +81697,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1392053159
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -81840,6 +82036,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1402966588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -82826,6 +83023,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1417414224
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -83677,6 +83875,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1442746719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84426,6 +84625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1454315859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84662,6 +84862,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1457940869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -84796,6 +84997,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1461424648
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85407,6 +85609,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1477119341
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -85883,6 +86086,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1480219622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87007,6 +87211,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1501432338
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87312,6 +87517,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1519515436
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -87548,6 +87754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1523917601
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88261,6 +88468,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1541915541
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -88566,6 +88774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1545773490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89177,6 +89386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1558886650
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89311,6 +89521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1560118191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89445,6 +89656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1563161125
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89579,6 +89791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1567397939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89986,6 +90199,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1575897711
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90393,6 +90607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1590833074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -90527,6 +90742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1597446508
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91003,6 +91219,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1605158882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91137,6 +91354,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1605501553
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91577,6 +91795,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1610708412
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -91882,6 +92101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1618951979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92016,6 +92236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1622918253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92354,6 +92575,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1629923919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92590,6 +92812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1635356613
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -92895,6 +93118,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1641523001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -93079,6 +93303,10 @@ PrefabInstance:
     - target: {fileID: 1754478447912592392, guid: cb6ea8dd724ba714889aba923a526a4e, type: 3}
       propertyPath: m_Name
       value: Slab (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1754478447912592392, guid: cb6ea8dd724ba714889aba923a526a4e, type: 3}
+      propertyPath: m_TagString
+      value: Pathable
       objectReference: {fileID: 0}
     - target: {fileID: 7245537125552334478, guid: cb6ea8dd724ba714889aba923a526a4e, type: 3}
       propertyPath: m_Pivot.x
@@ -93888,6 +94116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1661666794
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -94022,6 +94251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1667703796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -94156,6 +94386,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1679593312
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -94665,6 +94896,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1687739079
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95243,6 +95475,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1696015854
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95581,6 +95814,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1707612895
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -95886,6 +96120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1710263592
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -96020,6 +96255,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1710305077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -96427,6 +96663,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1717176782
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -96561,6 +96798,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1717303916
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -96695,6 +96933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1720490500
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97033,6 +97272,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1730934534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -97338,6 +97578,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1738244122
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -98804,6 +99045,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1763459482
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -98938,6 +99180,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1766329588
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100197,6 +100440,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1782671090
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100433,6 +100677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1785452363
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100840,6 +101085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1792848562
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100974,6 +101220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1796630462
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -101381,6 +101628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1801790376
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -101959,6 +102207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1808484133
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -102366,6 +102615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1809094236
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103010,6 +103260,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1826122402
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103144,6 +103395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1836316504
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103380,6 +103632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1838519834
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -103787,6 +104040,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1854229826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104365,6 +104619,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1872561350
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104670,6 +104925,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1883767405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104775,6 +105031,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: a62cc74b12333f04cb06d13bf35a05be, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1885139598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -105080,6 +105337,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1906271068
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -105487,6 +105745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1911643321
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -105963,6 +106222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1929606877
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106097,6 +106357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1932635238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106231,6 +106492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1933281729
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106638,6 +106900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1952095566
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -106943,6 +107206,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1957047074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107077,6 +107341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1957110494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107382,6 +107647,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1961761969
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107551,6 +107817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1966043411
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -107958,6 +108225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1971474521
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -108911,6 +109179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1983174426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109453,6 +109722,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1992100371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109860,6 +110130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &1999382527
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110165,6 +110436,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2002763908
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110572,6 +110844,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2004817463
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110808,6 +111081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2013971999
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -110942,6 +111216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2014266251
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -111247,6 +111522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2021850694
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -112233,6 +112509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2044220825
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -113186,6 +113463,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2069569445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -113491,6 +113769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2071330409
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114000,6 +114279,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2084316130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114105,6 +114385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: a62cc74b12333f04cb06d13bf35a05be, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2084569719
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114239,6 +114520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2086608647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -114748,6 +115030,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2097543502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115257,6 +115540,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2106723698
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115424,6 +115708,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2107828685
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115729,6 +116014,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2112743499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -115965,6 +116251,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2119211130
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116270,6 +116557,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2123966437
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116404,6 +116692,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2129635548
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -116538,6 +116827,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultMaterial: {fileID: 2100000, guid: 26271f6d98370ee4a90b245d788a3fe5, type: 2}
   highLightMaterial: {fileID: 2100000, guid: 6fc1da4f1466ee74485b00123fee6e54, type: 2}
+  costPass: 1
 --- !u!65 &2130193989
 BoxCollider:
   m_ObjectHideFlags: 0
