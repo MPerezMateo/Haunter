@@ -4,14 +4,13 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
 
 public abstract class Moveable : MonoBehaviour
 {
   public int moveRange;
   public double jumpReach;
   public float moveSpeed;
-  private bool highlighted;
+  public bool highlighted;
   private List<GameObject> posiblePathables;
   private List<float> visited;
 
@@ -19,27 +18,40 @@ public abstract class Moveable : MonoBehaviour
   {
     // We have to set default values here, in the declaration they do not inherit anything
     moveRange = 7;
-    jumpReach = .5;
+    jumpReach = 4.5;
     moveSpeed = 5;
     highlighted = false;
     posiblePathables = new List<GameObject>();
     visited = new List<float>();
   }
-  protected void move()
+
+  public void selectToMove()
   {
-    if (Input.GetMouseButtonDown(0) && GlobalVariables.Selection == gameObject && !highlighted)
+    posiblePathables = optimalPath();
+    highLightPaths(posiblePathables, true);
+    highlighted = true;
+  }
+
+  public void unSelectToMove()
+  {
+    highLightPaths(posiblePathables, false);
+    highlighted = false;
+  }
+  public void move()
+  {
+    /* if (Input.GetMouseButtonDown(0) && GlobalVariables.Selection == gameObject && !highlighted)
     {
       posiblePathables = optimalPath();
       highLightPaths(posiblePathables, true);
       highlighted = true;
-    }
-    else if (Input.GetMouseButtonDown(0) && highlighted)
+    } */
+    /* else */
+    if (Input.GetMouseButtonDown(0) && highlighted)
     {
       List<GameObject> way = setPath(posiblePathables, visited, GlobalVariables.Selection);
       //foreach (var tile in way)
       //  Debug.Log(tile.transform.position);
-      highLightPaths(posiblePathables, false);
-      highlighted = false;
+      unSelectToMove();
       // Move the player
       GlobalVariables.selectable = false;
       StartCoroutine(translatePlayer(way));

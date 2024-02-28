@@ -11,13 +11,14 @@ public class GridManager : MonoBehaviour
   {
     // En un futuro, vamos a definir los grids como una lista parametrizada de elementos que va a tener
     // Cargaremos un archivo que contenga la matriz de códigos de tile a cargar, y lo haga.
-    // GenerateGrid(new int[9, 16, 2]);
+    // GenerateGrid(new int[9, 17, 2]);
   }
   void GenerateGrid(int[,,] scene)
   {
-    for (int i = 0; i < scene.GetLength(0); i++)
+    // Este método centra el escenario en (0,0,0.5) por lo que los elementos deben generarse acorde
+    for (int i = (int)(-.5 * scene.GetLength(0)); i <= (int)(.5 * scene.GetLength(0)); i++)
     {
-      for (int j = 0; j < scene.GetLength(1); j++)
+      for (int j = (int)(-.5 * scene.GetLength(1)); j <= (int)(.5 * scene.GetLength(1)); j++)
       {
         for (int k = -scene.GetLength(2); k < 0; k++)
         {

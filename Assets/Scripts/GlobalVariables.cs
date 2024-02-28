@@ -21,6 +21,13 @@ public static class GlobalVariables
     get { return _selection; }
     set { /* Debug.Log($"New selection item {value}"); */ _selection = value; }
   }
+
+  private static AttackerAndDecision _currentAttacker = null;
+  public static AttackerAndDecision CurrentAttacker
+  {
+    get { return _currentAttacker; }
+    set { /* Debug.Log($"New selection item {value}"); */ _currentAttacker = value; }
+  }
   public static void MyStaticMethod()
   {
     Debug.Log("Static method called.");

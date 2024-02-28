@@ -10,7 +10,7 @@ public class Selection : MonoBehaviour
   private Material originalMaterialHighlight;
   private Material originalMaterialSelection;
   private RaycastHit raycastHit;
-  private List<string> selectableTags = new List<string>() { "Selectable", "Pathable" };
+  private List<string> selectableTags = new List<string>() { "Selectable", "Pathable", "Player" };
   void Update()
   {
     // Highlight
